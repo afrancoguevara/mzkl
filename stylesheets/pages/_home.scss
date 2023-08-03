@@ -6,6 +6,7 @@ $background-image-path: '../assets/pexels-francesco-ungaro.jpg';
   background-image: url('#{$background-image-path}');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center bottom;
 }
 
 // Apply the background image to the body using the mixin

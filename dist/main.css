@@ -402,6 +402,7 @@ body {
   background-image: url("../assets/pexels-francesco-ungaro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center bottom;
   height: 100vh;
   margin: 0;
 }

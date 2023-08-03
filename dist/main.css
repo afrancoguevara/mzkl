@@ -343,7 +343,7 @@ a:hover, a:active, a:focus, a:focus-within {
  */
 body {
   color: rgb(34, 34, 34);
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 125%/1.4 "IBM Plex Serif", serif;
 }
 
 /**
@@ -396,6 +396,14 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+body {
+  background-image: url("../assets/pexels-francesco-ungaro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

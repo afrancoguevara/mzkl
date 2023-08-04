@@ -347,6 +347,10 @@ body {
   font: normal 125%/1.4 "IBM Plex Serif", serif;
 }
 
+h1, .h1 {
+  font: 700 "IBM Plex Serif", serif;
+}
+
 /**
  * Clear inner floats
  */

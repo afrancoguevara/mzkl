@@ -419,7 +419,9 @@ body {
 }
 
 .splash h1, .splash .h1 {
-  font-size: x-large;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
 /*!

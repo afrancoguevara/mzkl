@@ -7,20 +7,10 @@ html {
 
 /* Sections
    ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
 body {
   margin: 0;
   font-family: 'IBM Plex Serif', serif;
   color: rgb(34, 34, 34);
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block;
 }
 
 /**

@@ -1,0 +1,5 @@
+node_modules/
+stylesheets/
+package-lock.json
+package.json
+README.md

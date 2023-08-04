@@ -1,17 +1,14 @@
 
 $background-image-path: '../assets/pexels-francesco-ungaro.jpg';
 
-// Define a mixin to set the background image
-@mixin body-background-image {
-  background-image: url('#{$background-image-path}');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-}
-
-// Apply the background image to the body using the mixin
 body {
   @include body-background-image;
   height: 100vh;
   margin: 0;
+}
+
+.splash {
+  position: absolute;
+  left: 45%;
+  top: 40%;
 }

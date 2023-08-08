@@ -25,12 +25,6 @@ a {
   background-color: transparent;
 }
 
-abbr[title] {
-  border-bottom: none; 
-  text-decoration: underline; 
-  text-decoration: underline dotted;
-}
-
 b,
 strong {
   font-weight: bolder;
@@ -99,7 +93,7 @@ body {
 }
 
 .splash h1{
-  font-size: 3rem;
-  color: #ffffff;
-  font-weight: bolder;
+  font-size: 3rem !important;
+  color: #ffffff !important;
+  font-weight: bolder !important; 
 }

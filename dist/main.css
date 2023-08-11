@@ -110,6 +110,7 @@ body {
 }
 
 .monogram {
+  font-family: 'Ultra', serif;
   width: 200px;
   height: 200px;
   display: flex;

@@ -104,3 +104,20 @@ body {
   color: #ffffff !important;
   font-weight: bolder !important; 
 }
+
+.monogram {
+  font-size: 3rem;
+}
+
+.letter {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 50%;
+}

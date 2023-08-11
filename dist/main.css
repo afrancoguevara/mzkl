@@ -120,14 +120,12 @@ body {
 .letter {
   width: 50%;
   height: 50%;
-  background-color: #3498db;
   color: #fff;
   font-size: 2rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
   box-sizing: border-box;
   border: 2px solid #fff;
 }

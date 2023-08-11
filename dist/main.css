@@ -92,6 +92,9 @@ body {
   background-position: center bottom;
   height: 100vh;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .splash {

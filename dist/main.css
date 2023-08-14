@@ -1,6 +1,21 @@
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("../assets/pexels-francesco-ungaro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
 }
 
 body,
@@ -13,6 +28,7 @@ h3 {
 }
 
 h1{
+  font-weight: 700;
   font-size: 2em;
   font-weight: 700;
   margin: 0.67em 0;
@@ -20,12 +36,6 @@ h1{
 
 p {
   color: rgb(34, 34, 34);
-}
-
-hr {
-  box-sizing: content-box; 
-  height: 0; 
-  overflow: visible; 
 }
 
 a {
@@ -49,16 +59,6 @@ img {
   display: none;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 a {
   color: rgb(229, 0, 80);
   text-decoration: none;
@@ -74,6 +74,8 @@ a:hover, a:active, a:focus, a:focus-within {
   content: "";
   display: table;
 }
+/*=========================================== elems
+==========*/
 
 .container {
   max-width: 1180px; 
@@ -84,48 +86,7 @@ a:hover, a:active, a:focus, a:focus-within {
   width: 100%; 
 }
 
-body {
-  background-image: url("../assets/pexels-francesco-ungaro.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.splash {
-  position: absolute;
-  left: 45%;
-  top: 40%;
-}
-
-.splash h1{
-  font-size: 3rem !important;
-  color: #ffffff !important;
-  font-weight: bolder !important; 
-}
-
 .monogram {
-  font-family: 'Ultra', serif;
   width: 200px;
   height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
-
-.letter {
-  width: 50%;
-  height: 50%;
-  color: #fff;
-  font-size: 2rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  border: 2px solid #fff;
 }

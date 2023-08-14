@@ -90,3 +90,12 @@ a:hover, a:active, a:focus, a:focus-within {
   width: 200px;
   height: 200px;
 }
+
+
+
+
+
+/*=========================================== queries
+==========*/
+@media only screen and (max-width: 60rem) {
+}

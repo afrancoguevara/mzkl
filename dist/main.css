@@ -14,8 +14,6 @@ body {
   background-image: url("../assets/pexels-francesco-ungaro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
-  height: 100vh;
 }
 
 body,
@@ -87,10 +85,9 @@ a:hover, a:active, a:focus, a:focus-within {
 }
 
 .monogram {
-  width: 200px;
-  /*height: 200px;*/
+  height: 200px;
   margin:auto;
-  margin-top: 4rem;
+  margin-top: 5rem;
 
 }
 

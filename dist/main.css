@@ -88,7 +88,10 @@ a:hover, a:active, a:focus, a:focus-within {
 
 .monogram {
   width: 200px;
-  height: 200px;
+  /*height: 200px;*/
+  margin:auto;
+  margin-top: 4rem;
+
 }
 
 

@@ -17,19 +17,20 @@ body {
 }
 
 body,
-p,
+p {
+  /* font-family: 'IBM Plex Serif', serif; */
+}
+
 h1,
 h2,
 h3 {
   margin: 0;
-  /* font-family: 'IBM Plex Serif', serif; */
   font-family: 'Lobster Two', cursive;
 }
 
 h1{
   font-weight: 700;
   font-size: 2em;
-  /* font-weight: 700; */
   margin: 0.67em 0;
 }
 

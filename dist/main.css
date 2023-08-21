@@ -16,9 +16,8 @@ body {
   background-size: cover;
 }
 
-body,
 p {
-  /* font-family: 'IBM Plex Serif', serif; */
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1,
@@ -96,6 +95,11 @@ h1.mzkl {
   text-align: center;
   color: #ffffff;
   font-size: 5rem;
+}
+
+p.monogram {
+  text-align: center;
+  color: #ffffff;
 }
 
 

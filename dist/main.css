@@ -87,7 +87,6 @@ a:hover, a:active, a:focus, a:focus-within {
 
 .monogram {
   height: 12rem;
-  width: 20vw;
   margin:auto;
   margin-top: 2rem;
 }
@@ -106,4 +105,13 @@ h1.mzkl {
 /*=========================================== queries
 ==========*/
 @media only screen and (max-width: 60rem) {
+  body {
+    height: 100vh;
+  }
+
+  .monogram {
+    height: 14rem;
+    padding-top: 2rem;
+  }
+
 }

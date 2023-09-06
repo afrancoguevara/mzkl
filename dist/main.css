@@ -79,7 +79,7 @@ a:hover, a:active, a:focus, a:focus-within {
   background-image: url('/assets/pexels-francesco-ungaro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   position: fixed;
   top: 0;
   left: 0;
@@ -105,18 +105,29 @@ h1.mzkl {
   color: #ffffff;
 }
 
+.content1 {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  height:100vh;
+  position: relative;
+  z-index: 1;
+}
 
-
+.content2 {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  height:100vh;
+  position: relative;
+  z-index: 1;
+}
 
 
 
 /*=========================================== queries
 ==========*/
 @media only screen and (max-width: 60rem) {
-  body {
-    height: 100vh;
-  }
-
   .monogram {
     height: 14rem;
     padding-top: 2rem;

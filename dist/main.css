@@ -75,7 +75,7 @@ a:hover, a:active, a:focus, a:focus-within {
 /*=========================================== elems
 ==========*/
 
-.container {
+.back {
   background-image: url('/assets/pexels-francesco-ungaro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,16 +105,8 @@ h1.mzkl {
   color: #ffffff;
 }
 
-.content1 {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 1000px;
-  height:100vh;
-  position: relative;
-  z-index: 1;
-}
-
-.content2 {
+.section {
+  display: flex;
   padding: 20px;
   margin: 0 auto;
   max-width: 1000px;

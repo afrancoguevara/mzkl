@@ -124,7 +124,7 @@ h1.mzkl {
 }
 
 .info {
-  width: 400px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.6);
@@ -133,6 +133,11 @@ h1.mzkl {
   word-break: break-word;
   line-height: 1.5;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botella {
+  width: 90%;
+  margin: auto;
 }
 
 img.espadin {
@@ -150,6 +155,7 @@ img.tepeztate {
 .boton_compra {
   display: block;
   max-width: 5rem;
+  width: 5rem;
   padding: .3rem;
   border-radius: .5rem;
   background-color: #ffffff;

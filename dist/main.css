@@ -15,13 +15,13 @@ body, html {
   padding:0;
 }
 
-p {
+p,
+h3 {
   font-family: 'Roboto Mono', monospace;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   margin: 0;
   font-family: 'Lobster Two', cursive;
 }
@@ -30,6 +30,11 @@ h1{
   font-weight: 700;
   font-size: 2em;
   margin: 0.67em 0;
+}
+
+h3 {
+  font-weight: 900;
+  color: #999999;
 }
 
 p {
@@ -64,13 +69,16 @@ a {
 
 a:hover, a:active, a:focus, a:focus-within {
   color: rgb(34, 34, 34);
-  text-decoration: underline;
 }
 
 .clearfix::after {
   clear: both;
   content: "";
   display: table;
+}
+
+.row {
+  display: flex;
 }
 /*=========================================== elems
 ==========*/
@@ -91,13 +99,13 @@ a:hover, a:active, a:focus, a:focus-within {
 .monogram {
   height: 12rem;
   margin:auto;
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 
 h1.mzkl {
   text-align: center;
   color: #ffffff;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .monogram p{
@@ -107,7 +115,7 @@ h1.mzkl {
 
 .section {
   display: flex;
-  padding: 20px;
+  padding: 1.5rem;
   margin: 0 auto;
   max-width: 1000px;
   height:100vh;
@@ -115,7 +123,36 @@ h1.mzkl {
   z-index: 1;
 }
 
+.info {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0 1rem;
+  padding: 1.5rem;
+  word-break: break-word;
+  line-height: 1.5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
+.espadin img {
+  width: 25rem;
+  margin-left: auto;
+}
+
+.boton_compra {
+  display: block;
+  max-width: 5rem;
+  padding: .3rem;
+  border-radius: .5rem;
+  background-color: #ffffff;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 /*=========================================== queries
 ==========*/

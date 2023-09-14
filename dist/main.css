@@ -105,13 +105,13 @@ a:hover, a:active, a:focus, a:focus-within {
 
 h1.mzkl {
   text-align: center;
-  color: #ffffff;
+  color: #3c3f3f;
   font-size: 2.8rem;
 }
 
 .monogram p{
   text-align: center;
-  color: #ffffff;
+  color: #3c3f3f;
   font-size: small;
 }
 
@@ -145,11 +145,13 @@ h1.mzkl {
 img.espadin {
   width: 150px;
   margin-left: 40%;
+  margin-top: 5%;
 }
 
 img.tepeztate {
   width: 150px;
   margin-left: 40%;
+  margin-top: 5%;
 }
 
 .boton_compra {
